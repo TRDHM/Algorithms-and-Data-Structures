@@ -1,0 +1,12 @@
+Problem: Implement Dijkstra's algorithm given an input file with a specific format of Origin;Destination;Trip-Length and a user defined starting position.
+
+This program will use several data structures, the Graph, Vertex, and Queue. 
+
+Vertex - Defined in the program as a struct to hold all values needed for each point on the graph.
+
+Graph - Stores the names and edges of each point. This structure also includes methods for traversing the graph and determining if a point has been marked by the program.
+
+Queue - Used to store data such as the names of each point on the graph.
+
+
+The algorithm itself will begin at the input given by the user, then traverse the graph looking for the shortest total path from each. After a node has been visited it is marked so that it won't be chosen twice. All adjacent nodes are looped through, and any that have a distance value greater than what has been travled so far is updated to the current distance. After this, the next minimum distance node is chosen and the algorithm continues.  

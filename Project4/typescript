@@ -1,0 +1,28 @@
+Script started on Sat 02 May 2020 11:51:28 PM EDT
+]0;mitchell_dh@cobra:~/csc245/Projects/Prog4[?1034h[mitchell_dh@cobra Prog4]$ exitquit./dijkstra ginfile1.dat g++ -std=c++11 dijkstra.cpp -o dijkstra
+]0;mitchell_dh@cobra:~/csc245/Projects/Prog4[mitchell_dh@cobra Prog4]$ g++ -std=c++11 dijkstra.cpp -o dijkstra[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kquit./dijkstra ginfile1.dat 
+--------------------------- DIJKSTRA'S ALGORITHM ---------------------------
+ A Weighted Graph Has Been Built For These Cities: 
+Austin
+Dallas
+Washington
+Atlanta
+Houston
+Denver
+Chicago
+Please input starting vertex: 
+Atlanta
+-----------------------------------------------------
+Vertex		Distance 	  Previous
+Austin		960		Dallas
+Dallas		1160		Austin
+Washington		600		Dallas
+Atlanta		0		N/A
+Houston		800		Atlanta
+Denver		1400		Chicago
+Chicago		2400		Denver
+A cycle exists for this graph
+]0;mitchell_dh@cobra:~/csc245/Projects/Prog4[mitchell_dh@cobra Prog4]$ exit
+exit
+
+Script done on Sat 02 May 2020 11:51:43 PM EDT

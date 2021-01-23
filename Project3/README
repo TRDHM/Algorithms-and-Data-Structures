@@ -1,0 +1,13 @@
+Problem: Take an input file and find all misspelled words as determined by a dictionary file. All misspelled words will be displayed for the user and prompt them to Add to Dictionary, Ignore word, Go to Next, Suggest a Spelling, or Quit the program. To solve this problem a combination of Binary Search Tree and HashTable classes will be used to store and output words. 
+
+Classes: Binary Search Tree - used to organize and output misspelled words and the line number they occur on in an alphabetical list. 
+	 HashTable - Used to store the dictionary and compare each word in the input file for misspellings. A second hashtable is used to store words that are to be ignored by the program in the future.
+
+Menu: The program will have several menu options, implemented as shown below
+Add to Dictionary - The current word will be added to the dictionary hashtable using its member functions
+Ignore - Current word will be added to a second hashtable using the same method as adding to the dictionary
+Suggest Spelling - Suggests alternate spelling of current word
+Go to Next - Clears the screen and restarts the menu loop
+Quit - breaks the loop
+
+Suggested Spelling: The Algorithm used to suggest spellings loops through each character in each word (until the next to last) and switches it with the next.Then after each switch the word is compared to the Dictionary list and if a match is found, it is suggested as the correct spelling. 

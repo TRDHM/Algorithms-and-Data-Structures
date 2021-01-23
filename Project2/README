@@ -1,0 +1,13 @@
+
+1. Client file with 1 Stack object (Stack <int> dc;).
+2. All input/output from keyboard with int operands and char operators.
+3. The program uses several classes including parseInput (takes the input as a string and parses it to be used later) which passes parsed input to handleInput (takes the raw input as a string), which calls isCom (takes a string value and returns if the input is a valid command), isOp (takes a string and returns if the input is a valid operator or not) , and isNum (takes a char value and returns if it is an integer)  to determine what should be done with the input.   
+
+
+My algorithm takes each individual passed input, with exceptions for cases where two numbers are together or _ representing negatives. These are then passed to the handleInput function, which tests each one against each possible case and performs the correct operation. These include addition, subtraction, multiplication, division, and modulo. The available commands include
+p - prints top of the stack without altering it
+n - prints the value on top of the stack then pops it
+f - prints the contents of the stack without alteration
+c - clears the stack
+d - duplicates the value on top of the stack and pushes the second copy as well
+r - reverses the order of the top two values on the stack 

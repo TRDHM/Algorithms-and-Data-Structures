@@ -1,0 +1,17 @@
+The goal of this program is to create a basic text editor that performs normal functions such as changing lines and writing changes out to the chosen file on close. We use the file "testfile" to insert basic input into the editor, with the output being written over the old version of the file on exit. 
+
+This program uses the iostream, fstream, cstdlib, string, linelist, and sstream classes. All classes except for linelist are included in the C++ standard library. Linelist uses an external pointer called currLine to implement various operations on a linked list. A linelist object has several private variables as well The linelist class public functions include back and next, which are used to create and maintain the linked list.  
+
+goToTop() - sets the currLine to the top of the list
+goToBottom() - sets the currLine to the bottom of the list
+insertLine() - takes string input and makes a new linelist object, then appends it to the list
+deleteLine() - removes the linelist object at currLine if it exists
+printList() - prints all lines currently in the list
+moveNextLine() - moves currLine to the next line 
+movePrevLine() - moves currLine to the previous line
+getCurrLineNum() - returns the current line number
+getLength() - returns the current length of the linelist
+getCurrLine() - returns the string contained by the current linelist object
+
+ 
+ 
